@@ -23,9 +23,9 @@ yarn add moifetch
 ## Examples
 
 ```
-const Moifetch = require('./index');
+const moifetch = require('./index');
 or
-import Moifetch from 'Moifetch'
+import moifetch from 'Moifetch'
 
 moifetch('https://httpbin.org/get').then(res => {
   expect(res.statusCode).toBe(200);
