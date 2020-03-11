@@ -1,7 +1,7 @@
 {
   "name": "moifetch",
-  "version": "0.0.0a",
-  "description": "Lite HTTP",
+  "version": "0.0.0-b",
+  "description": "Lite HTTP/HTTPS for NodeJs and Frontend",
   "main": "index.js",
   "author": "Warren Gates <warrenckhan@gmail.com>",
   "license": "MIT",
@@ -11,5 +11,6 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "keywords": ["fetch","http","https","promise","http2","get","request","simple","node","url"]
 }
