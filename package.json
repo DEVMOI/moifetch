@@ -1,13 +1,13 @@
 {
   "name": "moifetch",
-  "version": "0.0.0",
+  "version": "0.0.0a",
   "description": "Lite HTTP",
   "main": "index.js",
   "author": "Warren Gates <warrenckhan@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test":"jest --watch"
+    "test": "jest --watch"
   },
   "devDependencies": {
     "jest": "^25.1.0"
