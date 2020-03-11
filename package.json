@@ -12,5 +12,6 @@
   "devDependencies": {
     "jest": "^25.1.0"
   },
-  "keywords": ["fetch","http","https","promise","http2","get","request","simple","node","url"]
+  "keywords": ["fetch","http","https","promise","http2","get","request","simple","node","url"],
+  "repository":"https://github.com/NodeGG/moifetch.git"
 }
