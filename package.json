@@ -1,6 +1,6 @@
 {
   "name": "moifetch",
-  "version": "0.0.0-b",
+  "version": "0.0.0-c",
   "description": "Lite HTTP/HTTPS for NodeJs and Frontend",
   "main": "index.js",
   "author": "Warren Gates <warrenckhan@gmail.com>",
@@ -12,6 +12,17 @@
   "devDependencies": {
     "jest": "^25.1.0"
   },
-  "keywords": ["fetch","http","https","promise","http2","get","request","simple","node","url"],
-  "repository":"https://github.com/NodeGG/moifetch.git"
+  "keywords": [
+    "fetch",
+    "http",
+    "https",
+    "promise",
+    "http2",
+    "get",
+    "request",
+    "simple",
+    "node",
+    "url"
+  ],
+  "repository": "https://github.com/NodeGG/moifetch.git"
 }
