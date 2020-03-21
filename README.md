@@ -24,25 +24,25 @@ yarn add moifetch
 
 ```
 const moifetch = require('./index');
-or
-import moifetch from 'Moifetch'
 
-moifetch('https://httpbin.org/get').then(res => {
+moifetch.GET('https://httpbin.org/get').then(res => {
   expect(res.statusCode).toBe(200);
 });
 
-moifetch('https://httpbin.org/post', { method: 'POST' }).then(res => {
+moifetch.PATCH('https://httpbin.org/patch').then(res => {
   expect(res.statusCode).toBe(200);
 });
 
-
-moifetch('https://httpbin.org/put', { method: 'PUT' }).then(res => {
-  expect(res.statusCode).toBe(200);
-});
-
-moifetch('https://httpbin.org/delete', { method: 'DELETE' }).then(res => {
+moifetch.POST('https://httpbin.org/post').then(res => {
   expect(res.statusCode).toBe(200);
 });
 
 
+moifetch.PUT('https://httpbin.org/put').then(res => {
+  expect(res.statusCode).toBe(200);
+});
+
+moifetch.DELETE('https://httpbin.org/delete').then(res => {
+  expect(res.statusCode).toBe(200);
+});
 ```

@@ -3,6 +3,6 @@
  * MIT Licensed
  */
 
-'use strict';
+"use strict";
 
-module.exports = require('./lib');
+module.exports = require("./lib");
