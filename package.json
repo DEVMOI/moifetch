@@ -1,6 +1,6 @@
 {
   "name": "moifetch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lite HTTP/HTTPS for NodeJs and Frontend",
   "main": "index.js",
   "author": "Warren Gates <warrenckhan@gmail.com>",
@@ -11,6 +11,9 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.10.0"
   },
   "keywords": [
     "fetch",
