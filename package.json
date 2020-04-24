@@ -10,10 +10,10 @@
     "dev": "jest --watch"
   },
   "devDependencies": {
-    "jest": "^25.1.0"
+    "jest": "^25.4.0"
   },
   "dependencies": {
-    "follow-redirects": "^1.10.0"
+    "follow-redirects": "^1.11.0"
   },
   "keywords": [
     "fetch",
