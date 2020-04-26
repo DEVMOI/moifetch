@@ -1,6 +1,6 @@
 {
   "name": "moifetch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lite HTTP/HTTPS for NodeJs and Frontend",
   "main": "index.js",
   "author": "Warren Gates <warrenckhan@gmail.com>",
